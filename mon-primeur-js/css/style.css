@@ -1,0 +1,139 @@
+body{
+    font-family: sans-serif;
+    margin-bottom:30%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+h1{
+	text-align: center;
+	margin: 75px 0;
+}
+
+section {
+	width: 100%;
+	margin: 0 auto;
+}
+
+figure {
+	text-align: center;
+	width: 10%;
+    float: left;
+}
+
+img {
+	width: 100%;
+}
+
+aside {
+	width: 20%;
+	border-left: 2% solid black;
+}
+
+form {
+	display: inline-block;
+	width: 10%;
+}
+
+input[type="text"]{
+	width: 100%;
+	text-align: center;
+}
+
+button {
+	display: inline-block;
+}
+
+table {
+	margin: 0 auto;
+}
+
+table img {
+	width: 15%;
+}
+
+#section-produits{
+	margin:0 15%;
+}
+
+ul.tabs{
+	border-bottom: 1px solid rgba(0,0,0,0.14);
+	max-width: 60%;
+	margin: 0 auto;
+}
+
+ul.tabs, .tabs li{
+    padding: 0;
+    list-style: none;
+	text-align: center;
+}
+
+.tabs li{
+    display: inline;
+}
+
+.tabs:after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.tabs a{
+    display: inline-block; 
+    padding: 15px;
+}
+
+.tabs a:hover{
+	color: #86bc42;
+}
+
+.tabs .active a{
+    font-weight: bold;
+}
+
+.tabs .active a:hover{
+	color: #000;
+}
+
+.tabs-content{
+    position: relative;
+    z-index: 3;
+    padding: 20px; 
+    background-color: #FFF;   
+    margin-bottom: 20px;
+}
+
+.tab-content{
+    display: none;
+    margin: 0 15%;
+    width: 100%;
+}
+
+.tab-content.active{
+    display: block;
+}
+
+.fade{
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.fade.in{
+    opacity: 1;
+}
+
+#panier, aside{
+    width: 15%;
+	float: right;	
+}
+
+aside{
+    margin-right: 5%;
+    background: #efefef;
+    padding: 0;
+    text-align: center;
+    padding-bottom: 15px;
+}
